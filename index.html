@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>URL Shortener</title>
+		<style>
+			@import 'https://bootswatch.com/paper/bootstrap.min.css';
+			@import 'https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.css';
+			@import 'css/style.css';
+		</style>
+	</head>
+
+	<body>
+		<div class="jumbotron vertical-center">
+			<div class="container">
+				<h2 class="text-center white">URL Shortener</h2>
+				<div class="col-sm-offset-3 col-sm-6 margin-top-30">
+					<div class="panel panel-default">
+						<div class="panel-body">
+							<div class="col-md-12">
+								<input id="url-input" type="text" class="form-control" placeholder="Paste your URL">
+							</div>
+							<div class="col-md-12 margin-top-10">
+								<input id="optionalname-input" type="text" class="form-control" placeholder="Custom name (Optional)">
+							</div>
+							<div class="col-md-12 margin-top-10">
+								<button id="submit-button" class="btn btn-block btn-shortener">Shorten!</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- jQuery is loaded synchronously because the other scripts need $. functions -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+		<script async src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		<script async src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/1.1.3/sweetalert.min.js"></script>
+		<script async src="js/script.js"></script>
+	</body>
+</html>
