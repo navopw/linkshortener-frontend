@@ -15,7 +15,7 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: lts/*
+          node-version: latest
 
       - name: Validate JavaScript syntax
         run: find js -name '*.js' -exec node --check {} \;
