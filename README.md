@@ -1,4 +1,4 @@
-# Linkshortener-Frontend
+# linkshortener-frontend
 
 Have fun coding the backend :blush:
 
